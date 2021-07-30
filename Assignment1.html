@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Letsupgrade-Day1 </title>
+<style>
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-family:sans-serif
+  padding: 5px;
+  background: black;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: maroon;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: maroon;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color:maroon;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .leftcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 200px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+table,tr,th,td{
+            border:6px solid black ;
+            border-collapse: collapse;
+            background-color:rgb(194, 161, 164);
+            padding: 5px;
+            text-align: center;
+            font-size: 18px;
+            
+           
+            
+        }
+        tr,td,th{
+            border:3px solid rgb(19, 19, 18);
+        }
+        img{
+            border-color:maroon;
+        }
+       table{
+           width: 87%
+       }    
+       h2{
+           color:white;
+       }
+       img.rounded-corners{
+           border-radius: 50%;
+       }
+      
+</style>
+</head>
+<body>
+
+
+<div class="header">
+    <i class="fa fa-book" aria-hidden="true" style="font-size:50px; color:white"> Assignment - 1  </i>
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <center>
+      <h2> <i> <u> Topic  </u>:    Create a table with the following items - 
+    [Name, E-Mail Id, Profile Picture]  </h2> 
+
+      <table id="tbl1">
+        <!-- Row 1 --> 
+         <tr>
+             <th> <u> Name </u></th>
+             <th> <u> E-Mail Id </u> </th>
+             <th> <u> Profile Picture</u> </th>
+         </tr>
+ 
+          <!-- Row 2 --> 
+          <tr>
+             <td> <b> Karthii </b></td>
+             <td> <b> Karthii0097@gmail.com </b> </td>
+             <td> <img src="karthi.jpg" border= 4 height=150 width=150 class="rounded-corners"> </img> </td>
+         </tr>
+ 
+          <!-- Row 3 --> 
+          <tr>
+             <td> <b> Nayanthara </b> </td>
+             <td> <b> nyann223@gmail.com</b></td>
+             <td> <img src="nayan.jpg" border = 4 height=150 width=150 class="rounded-corners"> </img> </td>
+         </tr>
+ 
+          <!-- Row 4 --> 
+          <tr>
+             <td> <b> Vijay Joseph</b> </td>
+             <td> <b> vj2092@gmail.com </b></td>
+             <td> <img src="vijay.webp" border= 4 height=150 width=150 class="rounded-corners"> </img> </td>
+         </tr>
+ 
+         <!-- Row 5 --> 
+         <tr>
+             <td> <b> Athulya</b> </td>
+             <td> <b> Athu107@gmail.com </b></td>
+             <td> <img src="Athulya.jpg" border = 4 height=150 width=150 class="rounded-corners"> </img> </td>
+         </tr>     
+     </table> <br>
+    </center>
+     
+    
+      </div>
+  </div>
+
+  <div class="leftcolumn">
+    <div class="card">
+       
+      <center>
+      <i class="fa fa-address-card" aria-hidden="true" style="font-size:20px; color:white"> Jemini M  </i> &emsp;
+    <i class="fa fa-envelope" style="font-size:20px; color:white"> Jemini.11.m@gmail.com </i> </b>&emsp;
+    <i class="fa fa-github" aria-hidden="true" style="font-size:20px; color:white"> Jam0011 </i><br>
+</center>
+    </div>
+    
+  </div>
+</div>
+
+ 
+
+
+</body>
+</html>
